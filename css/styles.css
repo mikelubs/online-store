@@ -40,11 +40,11 @@ h2 {
 BODY
 ******************************************************/
 #thankyou {
-       display: ;
+       display: none;
      }
 
 .receipt {
-  display: ;
+  display: none;
 }
 
 h4 {
