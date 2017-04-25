@@ -53,7 +53,7 @@
             </div>
             <div class="form-group">
               <label for="streetname"></label>
-              <input id="streetname" class="form-control" type="text" placeholder="Street..." required="">
+              <input id="streetname" class="form-control" type="text" placeholder="Estate..." required="">
             </div>
             <div class="form-group">
               <label for="buildingname"></label>
@@ -75,10 +75,10 @@
           <h4>Online Store</h4>
           <p><span class="firstname"></span> <span class="lastname"></span>, your order will be delivered to:
             <ul>
-              <li><span class="streetname"></span> Street</li>
+              <li><span class="streetname"></span> Estate</li>
               <li><span class="buildingname"></span> Building</li>
-              <li>Room<span class="floornumber"></span></li>
-              <li>Room<span class="roomnumber"></span></li>
+              <li>Floor <span class="floornumber"></span></li>
+              <li>Room <span class="roomnumber"></span></li>
             </ul>
           <p>Thank you for Shopping with us.</p>
         </div>
@@ -88,36 +88,41 @@
 
 
 
-    <div class="receipt" id="receipt">
-      <h3>Online Store Receipt</h3>
-    <table class="table" id="table1">
-      <tr>
-        <th>Commodity</th>
-        <th>Qty</th>
-        <th>Price</th>
-      </tr>
-      <tr>
-        <td>Pizza</td>
-        <td>1</td>
-        <td>Kshs. 1000</td>
-      </tr>
-      <tr>
-        <td>Bhajia</td>
-        <td>3</td>
-        <td>Kshs. 750</td>
-      </tr>
-      <tr>
-        <td>Crisps</td>
-        <td>10</td>
-        <td>Kshs. 800</td>
-      </tr>
-      <tr>
-        <td>TOTALS</td>
-        <td></td>
-        <td>Kshs. 2550</td>
-      </tr>
-    </table>
+    <div class="container receipt" id="receipt">
+      <div class="row">
+        <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-3 col-xs-6">
+          <h3>Online Store Receipt</h3>
+          <table class="table" id="table1">
+            <tr>
+              <th>Order</th>
+              <th>Qty</th>
+              <th>Price (Kshs.)</th>
+            </tr>
+            <tr>
+              <td>Pizza</td>
+              <td>1</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>Bhajia</td>
+              <td>3</td>
+              <td>750</td>
+            </tr>
+            <tr>
+              <td>Crisps</td>
+              <td>10</td>
+              <td>800</td>
+            </tr>
+            <tr>
+              <td>TOTALS</td>
+              <td></td>
+              <td>2550</td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
+
 
 
       <div class="container">
