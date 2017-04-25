@@ -70,6 +70,10 @@ BODY
   background: rgb(224, 224, 209);
 }
 
+.form-control:hover {
+  cursor: pointer;
+}
+
 button {
   background: rgb(0, 128, 0);
   font-family: 'Handlee', cursive;
