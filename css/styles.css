@@ -61,6 +61,10 @@ h3 {
   color: rgb(153, 255, 51);
 }
 
+.radio:hover {
+  color: orange;
+}
+
 .thanks {
   color: orange;
   font-size: 0.8em;
