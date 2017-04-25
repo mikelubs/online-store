@@ -54,20 +54,48 @@ BODY
 }
 
 .large {
-  background: #fff;
- color: #000;
+  background: rgb(138, 138, 92);
+  color: #fff;
+  font-family: 'Capriola', sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  padding: 30px;
 }
+
+.form-control {
+  font-size: 1.2em;
+  color: rgb(0, 51, 0);
+  font-family: 'Handlee', cursive;
+  font-weight: lighter;
+}
+
+button {
+  background: rgb(0, 128, 0);
+  font-family: 'Handlee', cursive;
+}
+
+.btn {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  background: rgb(0, 51, 0);
+  color: #fff;
+}
+
 /******************************************************
 
 FOOTER
 ******************************************************/
-
-/******************************************************
-
-
-******************************************************/
-
-/******************************************************
-
-
-******************************************************/
+.footer {
+  background: rgb(0, 51, 0);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.3em;
+}
