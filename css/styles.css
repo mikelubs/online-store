@@ -20,17 +20,26 @@ body {
 
 h1 {
   text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.fa-shopping-bag {
+  margin: 5px;
+  padding: 5px;
 }
 
 h2 {
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /******************************************************
 
 BODY
 ******************************************************/
-#story {
+#thankyou {
        display: none;
      }
 
@@ -45,7 +54,7 @@ BODY
 }
 
 .large {
-  background: rgb(204, 255, 204);
+  background: #fff;
  color: #000;
 }
 /******************************************************

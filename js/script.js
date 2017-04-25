@@ -14,7 +14,7 @@ $(document).ready(function() {
      $(".floornumber").text(floornumberInput);
      $(".roomnumber").text(roomnumberInput);
 
-     $("#story").show();
+     $("#thankyou").show();
      $("#receipt").show();
      $("#blanks").slideUp();
 
