@@ -2,6 +2,18 @@
 HEADER
 
 ******************************************************/
+.header-lg {
+  background: rgb(51, 0, 0);
+  color: #fff;
+  margin: 0 0 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  padding: 50px;
+}
+
 h1 {
   text-align: center;
 }
@@ -20,6 +32,12 @@ BODY
 
 .receipt {
   display: none;
+}
+
+.header-sm {
+  background: rgb(128, 0, 0);
+  color: #fff;
+  width: 100%;
 }
 
 /******************************************************
