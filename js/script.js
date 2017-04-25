@@ -5,7 +5,7 @@ $(document).ready(function() {
      var streetnameInput= $("input#streetname").val();
      var buildingnameInput = $("input#buildingname").val();
      var floornumberInput = $("input#floornumber").val();
-     var roomnumberInput = $("roomnumber#roomnumber").val();
+     var roomnumberInput = $("input#roomnumber").val();
 
      $(".firstname").text(firstnameInput);
      $(".lastname").text(lastnameInput);
