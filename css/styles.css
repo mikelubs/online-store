@@ -67,6 +67,7 @@ BODY
   color: rgb(0, 51, 0);
   font-family: 'Handlee', cursive;
   font-weight: lighter;
+  background: rgb(224, 224, 209);
 }
 
 button {
