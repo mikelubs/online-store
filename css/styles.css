@@ -69,6 +69,11 @@ h3 {
   color: orange;
 }
 
+.radio {
+  letter-spacing: 1px;
+  font-family: 'Handlee', cursive;
+}
+
 .thanks {
   color: orange;
   font-size: 0.8em;
@@ -99,6 +104,15 @@ h3 {
   font-family: 'Handlee', cursive;
   font-weight: lighter;
   background: rgb(224, 224, 209);
+}
+
+.foods {
+  color: #fff;
+  background: rgb(0, 51, 0);
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
 }
 
 .form-control:hover {
