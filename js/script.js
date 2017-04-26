@@ -20,7 +20,8 @@ $(document).ready(function() {
      $(".foodtype2").text(food2Input);
      $(".foodtype3").text(food3Input);
 
-
+     $(".hid1").fadeOut();
+     $(".hid2").fadeIn();
      $("#thankyou").show();
      $("#receipt").show();
      $(".radio").slideUp();

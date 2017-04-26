@@ -61,6 +61,10 @@ h3 {
   color: rgb(0, 51, 0);
 }
 
+.hid2 {
+  display: none;
+}
+
 .h2-deliver {
   color: orange;
   background: rgb(0, 128, 0);
