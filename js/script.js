@@ -23,6 +23,7 @@ $(document).ready(function() {
 
      $("#thankyou").show();
      $("#receipt").show();
+     $(".radio").slideUp();
      $("#blanks").slideUp();
 
 
